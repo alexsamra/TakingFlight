@@ -1,0 +1,6 @@
+We made it fair for each team by having one function that checks if any team can play to go through the teams in a random order
+allowing each to have an equal chance to take the field if they have enough players.
+We avoid multiple teams taking the field at once by only allowing one thread to check if a team can play at once and then locking the field if available.
+The field is then only unlocked when the last player leaves the field.
+This program works with any lengths of time but we thought that games lasting between 4-8 seconds was a good balance and having players arrive and 
+take 0-59 seconds to recover allowed for there to be mostly time with enough players waiting but also time when there were not enough players for any game.

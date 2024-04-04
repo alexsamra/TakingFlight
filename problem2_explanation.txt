@@ -1,0 +1,13 @@
+Our solution allows for planes to check if the entirety of their required runway is available.
+If so, they will lock it all and only unlock each section once they have passed it, making it so that as many sections can be used at once as possible without risk of planes catching up or colliding.
+All planes have an equal chance of being able to check if the runway is available for them since they are all waiting on the same lock and unlocking is effectively random.
+This leads to smaller planes being more likely to be able to take off since they need less runways, but this leads to more runways being used at any time.
+One way a deadlock could occur is if two planes have possession of one part of the runway and they need each other’s portion in order to run.
+We avoid this by locking the checking function so that only one plane can try to get in control of unused runways at once which reduces parallelism but stops deadlocking.
+We minimized the decrease in parallelism by having as little as possible within the check runways lock.
+
+Note: we decided to have the threads stop once their plane landed but if we were to make it run infinitely we would just add a while(true) loop around the plane* function.
+
+Test: We decided to have 2-4 second wait times for each runway section as this was neither too slow or too fast that it was illegible.
+We decided to have a 1-30 initial wait and flight time as this allows there to almost always be a plane waiting while still having a lot of planes asleep.
+All values would work be could make the output very fast or make the program take a long time to run.

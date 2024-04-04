@@ -1,0 +1,596 @@
+Script started on 2022-09-16 17:47:01-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="55"]
+^[[?2004h^[]0;owen@owen-VirtualBox: ~/Desktop/Project2^G^[[01;32mowen@owen-VirtualBox^[[00m:^[[01;34m~/Desktop/Project2^[[00m$ make Omni^M
+^[[?2004l^Mgcc -o Omni Omni.c -I.^M
+^[[01m^[[KOmni.c:^[[m^[[K In function M-bM-^@M-^X^[[01m^[[Kplayer^[[m^[[KM-bM-^@M-^Y:^M
+^[[01m^[[KOmni.c:36:20:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kcast from pointer to integer of different size [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-to-int-cast^G-Wpointer-to-int-cast^[]8;;^G^[[m^[[K]^M
+   36 |         int type = ^[[01;35m^[[K(^[[m^[[Kint)arg;^M
+      |                    ^[[01;35m^[[K^^[[m^[[K^M
+^[[01m^[[KOmni.c:41:25:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[KcheckTeams^[[m^[[KM-bM-^@M-^Y [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+   41 |                         ^[[01;35m^[[KcheckTeams^[[m^[[K();^M
+      |                         ^[[01;35m^[[K^~~~~~~~~~^[[m^[[K^M
+^[[01m^[[KOmni.c:44:83:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Kgettid^[[m^[[KM-bM-^@M-^Y; did you mean M-bM-^@M-^X^[[01m^[[Kgetgid^[[m^[[KM-bM-^@M-^Y? [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+   44 |                         printf("(TID %d): I am waiting to play baseball\n", (int) ^[[01;35m^[[Kgettid^[[m^[[K());^M
+      |                                                                                   ^[[01;35m^[[K^~~~~~^[[m^[[K^M
+      |                                                                                   ^[[32m^[[Kgetgid^[[m^[[K^M
+^[[01m^[[KOmni.c:^[[m^[[K In function M-bM-^@M-^X^[[01m^[[Kmain^[[m^[[KM-bM-^@M-^Y:^M
+^[[01m^[[KOmni.c:209:17:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Kwait^[[m^[[KM-bM-^@M-^Y [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+  209 |                 ^[[01;35m^[[Kwait^[[m^[[K(&status);^M
+      |                 ^[[01;35m^[[K^~~~^[[m^[[K^M
+^[[?2004h^[]0;owen@owen-VirtualBox: ~/Desktop/Project2^G^[[01;32mowen@owen-VirtualBox^[[00m:^[[01;34m~/Desktop/Project2^[[00m$ ./Omni^M
+^[[?2004l^MNot enough players ^M
+(TID 28956): I am waiting to play baseball^M
+Not enough players ^M
+(TID 29033): I am waiting to play soccer^M
+Not enough players ^M
+Not enough players ^M
+(TID 29039): I am waiting to play soccer^M
+(TID 28997): I am waiting to play football^M
+(TID 29055): I am waiting to play soccer^M
+(TID 29055): I'm about to play soccer, I am taking spot 2^M
+(TID 29039): I'm about to play soccer, I am taking spot 3^M
+(TID 29033): I'm about to play soccer, I am taking spot 1^M
+(TID 29061): I am waiting to play soccer^M
+(TID 29061): I'm about to play soccer, I am taking spot 4^M
+(TID 28959): I am waiting to play baseball^M
+(TID 28960): I am waiting to play baseball^M
+(TID 28965): I am waiting to play baseball^M
+(TID 28973): I am waiting to play baseball^M
+(TID 29012): I am waiting to play football^M
+(TID 29033): I'm done playing soccer, leaving spot 1^M
+(TID 29026): I am waiting to play soccer^M
+(TID 29039): I'm done playing soccer, leaving spot 3^M
+(TID 29026): I'm about to play soccer, I am taking spot 1^M
+(TID 29016): I am waiting to play football^M
+Not enough players ^M
+(TID 29009): I am waiting to play football^M
+Not enough players ^M
+(TID 29028): I am waiting to play soccer^M
+(TID 29028): I'm about to play soccer, I am taking spot 3^M
+(TID 29061): I'm done playing soccer, leaving spot 4^M
+Not enough players ^M
+(TID 29007): I am waiting to play football^M
+(TID 29055): I'm done playing soccer, leaving spot 2^M
+Not enough players ^M
+(TID 28977): I am waiting to play football^M
+Not enough players ^M
+(TID 28996): I am waiting to play football^M
+Not enough players ^M
+(TID 29039): I am waiting to play soccer^M
+(TID 29026): I'm done playing soccer, leaving spot 1^M
+Not enough players ^M
+(TID 29024): I am waiting to play soccer^M
+(TID 28994): I am waiting to play football^M
+(TID 29024): I'm about to play soccer, I am taking spot 1^M
+(TID 29039): I'm about to play soccer, I am taking spot 2^M
+(TID 28993): I am waiting to play football^M
+(TID 29014): I am waiting to play football^M
+(TID 29028): I'm done playing soccer, leaving spot 3^M
+(TID 29036): I am waiting to play soccer^M
+(TID 29036): I'm about to play soccer, I am taking spot 3^M
+(TID 29058): I am waiting to play soccer^M
+(TID 29058): I'm about to play soccer, I am taking spot 4^M
+(TID 28972): I am waiting to play baseball^M
+(TID 29021): I am waiting to play soccer^M
+(TID 29021): I'm about to play soccer, I am taking spot 5^M
+(TID 29038): I am waiting to play soccer^M
+(TID 29038): I'm about to play soccer, I am taking spot 6^M
+(TID 29048): I am waiting to play soccer^M
+(TID 29048): I'm about to play soccer, I am taking spot 7^M
+(TID 29039): I'm done playing soccer, leaving spot 2^M
+Not enough players ^M
+(TID 29028): I am waiting to play soccer^M
+(TID 29028): I'm about to play soccer, I am taking spot 2^M
+Not enough players ^M
+(TID 28995): I am waiting to play football^M
+(TID 29024): I'm done playing soccer, leaving spot 1^M
+Not enough players ^M
+(TID 29035): I am waiting to play soccer^M
+(TID 29035): I'm about to play soccer, I am taking spot 1^M
+Not enough players ^M
+(TID 29057): I am waiting to play soccer^M
+(TID 29057): I'm about to play soccer, I am taking spot 8^M
+(TID 29058): I'm done playing soccer, leaving spot 4^M
+Not enough players ^M
+(TID 29045): I am waiting to play soccer^M
+Not enough players ^M
+(TID 29026): I am waiting to play soccer^M
+(TID 28942): I am waiting to play baseball^M
+(TID 29045): I'm about to play soccer, I am taking spot 4^M
+(TID 29026): I'm about to play soccer, I am taking spot 9^M
+(TID 28952): I am waiting to play baseball^M
+(TID 29027): I am waiting to play soccer^M
+(TID 29027): I'm about to play soccer, I am taking spot 10^M
+(TID 29028): I'm done playing soccer, leaving spot 2^M
+(TID 29001): I am waiting to play football^M
+(TID 29038): I'm done playing soccer, leaving spot 6^M
+(TID 29057): I'm done playing soccer, leaving spot 8^M
+(TID 29036): I'm done playing soccer, leaving spot 3^M
+(TID 29048): I'm done playing soccer, leaving spot 7^M
+(TID 29021): I'm done playing soccer, leaving spot 5^M
+Not enough players ^M
+(TID 29023): I am waiting to play soccer^M
+(TID 29023): I'm about to play soccer, I am taking spot 2^M
+(TID 29045): I'm done playing soccer, leaving spot 4^M
+Not enough players ^M
+(TID 29025): I am waiting to play soccer^M
+(TID 29025): I'm about to play soccer, I am taking spot 3^M
+Not enough players ^M
+(TID 29040): I am waiting to play soccer^M
+(TID 29040): I'm about to play soccer, I am taking spot 4^M
+Not enough players ^M
+(TID 28940): I am waiting to play baseball^M
+Not enough players ^M
+(TID 28974): I am waiting to play football^M
+(TID 29035): I'm done playing soccer, leaving spot 1^M
+Not enough players ^M
+(TID 28943): I am waiting to play baseball^M
+Not enough players ^M
+Not enough players ^M
+Not enough players ^M
+(TID 29024): I am waiting to play soccer^M
+Not enough players ^M
+(TID 28987): I am waiting to play football^M
+(TID 29004): I am waiting to play football^M
+(TID 29037): I am waiting to play soccer^M
+(TID 29026): I'm done playing soccer, leaving spot 9^M
+(TID 29037): I'm about to play soccer, I am taking spot 1^M
+(TID 29046): I am waiting to play soccer^M
+(TID 29046): I'm about to play soccer, I am taking spot 6^M
+(TID 29024): I'm about to play soccer, I am taking spot 5^M
+(TID 28941): I am waiting to play baseball^M
+(TID 28967): I am waiting to play baseball^M
+(TID 28958): I am waiting to play baseball^M
+(TID 29034): I am waiting to play soccer^M
+(TID 29027): I'm done playing soccer, leaving spot 10^M
+(TID 29034): I'm about to play soccer, I am taking spot 7^M
+(TID 28991): I am waiting to play football^M
+(TID 29043): I am waiting to play soccer^M
+(TID 29043): I'm about to play soccer, I am taking spot 8^M
+(TID 29048): I am waiting to play soccer^M
+(TID 29048): I'm about to play soccer, I am taking spot 9^M
+(TID 28950): I am waiting to play baseball^M
+(TID 29023): I'm done playing soccer, leaving spot 2^M
+(TID 29040): I'm done playing soccer, leaving spot 4^M
+(TID 29025): I'm done playing soccer, leaving spot 3^M
+(TID 29037): I'm done playing soccer, leaving spot 1^M
+Not enough players ^M
+(TID 29040): I am waiting to play soccer^M
+(TID 29040): I'm about to play soccer, I am taking spot 1^M
+(TID 29024): I'm done playing soccer, leaving spot 5^M
+Not enough players ^M
+(TID 28944): I am waiting to play baseball^M
+Not enough players ^M
+(TID 29019): I am waiting to play soccer^M
+(TID 29019): I'm about to play soccer, I am taking spot 2^M
+Not enough players ^M
+(TID 29011): I am waiting to play football^M
+(TID 29043): I'm done playing soccer, leaving spot 8^M
+(TID 29034): I'm done playing soccer, leaving spot 7^M
+Not enough players ^M
+(TID 29028): I am waiting to play soccer^M
+Not enough players ^M
+(TID 29035): I am waiting to play soccer^M
+(TID 29046): I'm done playing soccer, leaving spot 6^M
+(TID 28984): I am waiting to play football^M
+(TID 29035): I'm about to play soccer, I am taking spot 3^M
+(TID 29028): I'm about to play soccer, I am taking spot 4^M
+(TID 28988): I am waiting to play football^M
+(TID 29013): I am waiting to play football^M
+(TID 29045): I am waiting to play soccer^M
+(TID 29045): I'm about to play soccer, I am taking spot 5^M
+(TID 28992): I am waiting to play football^M
+(TID 29059): I am waiting to play soccer^M
+(TID 29059): I'm about to play soccer, I am taking spot 6^M
+(TID 29042): I am waiting to play soccer^M
+(TID 29042): I'm about to play soccer, I am taking spot 7^M
+(TID 28939): I am waiting to play baseball^M
+(TID 29048): I'm done playing soccer, leaving spot 9^M
+(TID 29023): I am waiting to play soccer^M
+(TID 29023): I'm about to play soccer, I am taking spot 8^M
+(TID 28953): I am waiting to play baseball^M
+(TID 28998): I am waiting to play football^M
+(TID 29010): I am waiting to play football^M
+(TID 28978): I am waiting to play football^M
+(TID 29040): I'm done playing soccer, leaving spot 1^M
+(TID 28979): I am waiting to play football^M
+(TID 28979): I'm about to play football, I am taking spot 1^M
+(TID 28990): I am waiting to play football^M
+(TID 28997): I'm about to play football, I am taking spot 2^M
+(TID 29016): I'm about to play football, I am taking spot 3^M
+(TID 29009): I'm about to play football, I am taking spot 4^M
+(TID 29007): I'm about to play football, I am taking spot 5^M
+(TID 28977): I'm about to play football, I am taking spot 6^M
+(TID 29056): I am waiting to play soccer^M
+(TID 29056): I'm about to play soccer, I am taking spot 1^M
+(TID 28996): I'm about to play football, I am taking spot 7^M
+(TID 28994): I'm about to play football, I am taking spot 8^M
+(TID 28993): I'm about to play football, I am taking spot 9^M
+(TID 29014): I'm about to play football, I am taking spot 10^M
+(TID 28995): I'm about to play football, I am taking spot 11^M
+(TID 29001): I'm about to play football, I am taking spot 12^M
+(TID 28974): I'm about to play football, I am taking spot 13^M
+(TID 28987): I'm about to play football, I am taking spot 14^M
+(TID 29004): I'm about to play football, I am taking spot 15^M
+(TID 28991): I'm about to play football, I am taking spot 16^M
+(TID 29011): I'm about to play football, I am taking spot 17^M
+(TID 28984): I'm about to play football, I am taking spot 18^M
+(TID 28988): I'm about to play football, I am taking spot 19^M
+(TID 29013): I'm about to play football, I am taking spot 20^M
+(TID 28992): I'm about to play football, I am taking spot 21^M
+(TID 28998): I'm about to play football, I am taking spot 22^M
+(TID 29028): I'm done playing soccer, leaving spot 4^M
+(TID 28951): I am waiting to play baseball^M
+(TID 28949): I am waiting to play baseball^M
+(TID 29005): I am waiting to play football^M
+(TID 29015): I am waiting to play football^M
+(TID 29019): I'm done playing soccer, leaving spot 2^M
+(TID 29042): I'm done playing soccer, leaving spot 7^M
+(TID 28985): I am waiting to play football^M
+(TID 28986): I am waiting to play football^M
+(TID 29002): I am waiting to play football^M
+(TID 29045): I'm done playing soccer, leaving spot 5^M
+(TID 29056): I'm done playing soccer, leaving spot 1^M
+(TID 29054): I am waiting to play soccer^M
+(TID 29035): I'm done playing soccer, leaving spot 3^M
+(TID 28968): I am waiting to play baseball^M
+(TID 28955): I am waiting to play baseball^M
+(TID 28999): I am waiting to play football^M
+(TID 29059): I'm done playing soccer, leaving spot 6^M
+(TID 29023): I'm done playing soccer, leaving spot 8^M
+(TID 28994): Im done playing football, I'm leaving spot 8^M
+(TID 28991): Im done playing football, I'm leaving spot 16^M
+(TID 29011): Im done playing football, I'm leaving spot 17^M
+(TID 29001): Im done playing football, I'm leaving spot 12^M
+(TID 28974): Im done playing football, I'm leaving spot 13^M
+(TID 28993): Im done playing football, I'm leaving spot 9^M
+(TID 29007): Im done playing football, I'm leaving spot 5^M
+(TID 28995): Im done playing football, I'm leaving spot 11^M
+(TID 28992): Im done playing football, I'm leaving spot 21^M
+(TID 28998): Im done playing football, I'm leaving spot 22^M
+(TID 28988): Im done playing football, I'm leaving spot 19^M
+(TID 28984): Im done playing football, I'm leaving spot 18^M
+(TID 28977): Im done playing football, I'm leaving spot 6^M
+(TID 29014): Im done playing football, I'm leaving spot 10^M
+(TID 28987): Im done playing football, I'm leaving spot 14^M
+(TID 29013): Im done playing football, I'm leaving spot 20^M
+(TID 28997): Im done playing football, I'm leaving spot 2^M
+(TID 29009): Im done playing football, I'm leaving spot 4^M
+(TID 29004): Im done playing football, I'm leaving spot 15^M
+(TID 29016): Im done playing football, I'm leaving spot 3^M
+(TID 28979): Im done playing football, I'm leaving spot 1^M
+(TID 28977): I am waiting to play football^M
+(TID 28956): I'm about to play baseball, I am taking spot 1^M
+(TID 28996): Im done playing football, I'm leaving spot 7^M
+(TID 28959): I'm about to play baseball, I am taking spot 2^M
+(TID 28960): I'm about to play baseball, I am taking spot 3^M
+(TID 28965): I'm about to play baseball, I am taking spot 4^M
+(TID 28973): I'm about to play baseball, I am taking spot 5^M
+(TID 28972): I'm about to play baseball, I am taking spot 6^M
+(TID 28942): I'm about to play baseball, I am taking spot 7^M
+(TID 28952): I'm about to play baseball, I am taking spot 8^M
+(TID 28940): I'm about to play baseball, I am taking spot 9^M
+(TID 28943): I'm about to play baseball, I am taking spot 10^M
+(TID 28941): I'm about to play baseball, I am taking spot 11^M
+(TID 28967): I'm about to play baseball, I am taking spot 12^M
+(TID 28958): I'm about to play baseball, I am taking spot 13^M
+(TID 28950): I'm about to play baseball, I am taking spot 14^M
+(TID 28944): I'm about to play baseball, I am taking spot 15^M
+(TID 28939): I'm about to play baseball, I am taking spot 16^M
+(TID 28953): I'm about to play baseball, I am taking spot 17^M
+(TID 28951): I'm about to play baseball, I am taking spot 18^M
+(TID 28961): I am waiting to play baseball^M
+(TID 29020): I am waiting to play soccer^M
+(TID 29034): I am waiting to play soccer^M
+(TID 29009): I am waiting to play football^M
+(TID 28997): I am waiting to play football^M
+(TID 29025): I am waiting to play soccer^M
+(TID 28948): I am waiting to play baseball^M
+(TID 28980): I am waiting to play football^M
+(TID 29049): I am waiting to play soccer^M
+(TID 29029): I am waiting to play soccer^M
+(TID 29001): I am waiting to play football^M
+(TID 29033): I am waiting to play soccer^M
+(TID 28975): I am waiting to play football^M
+(TID 29050): I am waiting to play soccer^M
+(TID 29044): I am waiting to play soccer^M
+(TID 29007): I am waiting to play football^M
+(TID 28964): I am waiting to play baseball^M
+(TID 29023): I am waiting to play soccer^M
+(TID 28963): I am waiting to play baseball^M
+(TID 28960): Im done playing baseball, I'm leaving spot 3^M
+(TID 28942): Im done playing baseball, I'm leaving spot 7^M
+(TID 28940): Im done playing baseball, I'm leaving spot 9^M
+(TID 28939): Im done playing baseball, I'm leaving spot 16^M
+(TID 28958): Im done playing baseball, I'm leaving spot 13^M
+(TID 28943): Im done playing baseball, I'm leaving spot 10^M
+(TID 28972): Im done playing baseball, I'm leaving spot 6^M
+(TID 28959): Im done playing baseball, I'm leaving spot 2^M
+(TID 28952): Im done playing baseball, I'm leaving spot 8^M
+(TID 28967): Im done playing baseball, I'm leaving spot 12^M
+(TID 28965): Im done playing baseball, I'm leaving spot 4^M
+(TID 28973): Im done playing baseball, I'm leaving spot 5^M
+(TID 28944): Im done playing baseball, I'm leaving spot 15^M
+(TID 28951): Im done playing baseball, I'm leaving spot 18^M
+(TID 28941): Im done playing baseball, I'm leaving spot 11^M
+(TID 28950): Im done playing baseball, I'm leaving spot 14^M
+(TID 28953): Im done playing baseball, I'm leaving spot 17^M
+(TID 28956): Im done playing baseball, I'm leaving spot 1^M
+(TID 28947): I am waiting to play baseball^M
+(TID 28962): I am waiting to play baseball^M
+(TID 29054): I'm about to play soccer, I am taking spot 1^M
+(TID 29020): I'm about to play soccer, I am taking spot 2^M
+(TID 29025): I'm about to play soccer, I am taking spot 4^M
+(TID 28970): I am waiting to play baseball^M
+(TID 29050): I'm about to play soccer, I am taking spot 5^M
+(TID 29049): I'm about to play soccer, I am taking spot 6^M
+(TID 29029): I'm about to play soccer, I am taking spot 7^M
+(TID 29033): I'm about to play soccer, I am taking spot 9^M
+(TID 29044): I'm about to play soccer, I am taking spot 8^M
+(TID 29034): I'm about to play soccer, I am taking spot 3^M
+(TID 29023): I'm about to play soccer, I am taking spot 10^M
+(TID 29041): I am waiting to play soccer^M
+(TID 29041): I'm about to play soccer, I am taking spot 11^M
+(TID 29043): I am waiting to play soccer^M
+(TID 29043): I'm about to play soccer, I am taking spot 12^M
+(TID 28943): I am waiting to play baseball^M
+(TID 28946): I am waiting to play baseball^M
+(TID 29017): I am waiting to play football^M
+(TID 29027): I am waiting to play soccer^M
+(TID 29027): I'm about to play soccer, I am taking spot 13^M
+(TID 28956): I am waiting to play baseball^M
+(TID 29013): I am waiting to play football^M
+(TID 29052): I am waiting to play soccer^M
+(TID 29052): I'm about to play soccer, I am taking spot 14^M
+(TID 29032): I am waiting to play soccer^M
+(TID 29032): I'm about to play soccer, I am taking spot 15^M
+(TID 29030): I am waiting to play soccer^M
+(TID 29030): I'm about to play soccer, I am taking spot 16^M
+(TID 29025): I'm done playing soccer, leaving spot 4^M
+(TID 29033): I'm done playing soccer, leaving spot 9^M
+(TID 28969): I am waiting to play baseball^M
+(TID 28983): I am waiting to play football^M
+(TID 29047): I am waiting to play soccer^M
+(TID 29047): I'm about to play soccer, I am taking spot 4^M
+(TID 29034): I'm done playing soccer, leaving spot 3^M
+(TID 29050): I'm done playing soccer, leaving spot 5^M
+(TID 29023): I'm done playing soccer, leaving spot 10^M
+(TID 28976): I am waiting to play football^M
+(TID 29000): I am waiting to play football^M
+(TID 29041): I'm done playing soccer, leaving spot 11^M
+(TID 29041): I am waiting to play soccer^M
+(TID 29041): I'm about to play soccer, I am taking spot 3^M
+(TID 28995): I am waiting to play football^M
+(TID 28954): I am waiting to play baseball^M
+(TID 29054): I'm done playing soccer, leaving spot 1^M
+(TID 28938): I am waiting to play baseball^M
+(TID 29044): I'm done playing soccer, leaving spot 8^M
+(TID 29049): I'm done playing soccer, leaving spot 6^M
+(TID 29029): I'm done playing soccer, leaving spot 7^M
+(TID 29020): I'm done playing soccer, leaving spot 2^M
+(TID 29022): I am waiting to play soccer^M
+(TID 29039): I am waiting to play soccer^M
+(TID 29044): I am waiting to play soccer^M
+(TID 29010): I'm about to play football, I am taking spot 1^M
+(TID 28978): I'm about to play football, I am taking spot 2^M
+(TID 28990): I'm about to play football, I am taking spot 3^M
+(TID 29012): I'm about to play football, I am taking spot 4^M
+(TID 29005): I'm about to play football, I am taking spot 5^M
+(TID 29015): I'm about to play football, I am taking spot 6^M
+(TID 28985): I'm about to play football, I am taking spot 7^M
+(TID 28986): I'm about to play football, I am taking spot 8^M
+(TID 29002): I'm about to play football, I am taking spot 9^M
+(TID 28999): I'm about to play football, I am taking spot 10^M
+(TID 28977): I'm about to play football, I am taking spot 11^M
+(TID 29009): I'm about to play football, I am taking spot 12^M
+(TID 28997): I'm about to play football, I am taking spot 13^M
+(TID 28980): I'm about to play football, I am taking spot 14^M
+(TID 29001): I'm about to play football, I am taking spot 15^M
+(TID 28975): I'm about to play football, I am taking spot 16^M
+(TID 29007): I'm about to play football, I am taking spot 17^M
+(TID 29017): I'm about to play football, I am taking spot 18^M
+(TID 29013): I'm about to play football, I am taking spot 19^M
+(TID 28983): I'm about to play football, I am taking spot 20^M
+(TID 28976): I'm about to play football, I am taking spot 21^M
+(TID 29000): I'm about to play football, I am taking spot 22^M
+(TID 28993): I am waiting to play football^M
+(TID 29043): I'm done playing soccer, leaving spot 12^M
+(TID 29027): I'm done playing soccer, leaving spot 13^M
+(TID 29057): I am waiting to play soccer^M
+(TID 29061): I am waiting to play soccer^M
+(TID 29052): I'm done playing soccer, leaving spot 14^M
+(TID 29038): I am waiting to play soccer^M
+(TID 29047): I'm done playing soccer, leaving spot 4^M
+(TID 28958): I am waiting to play baseball^M
+(TID 28951): I am waiting to play baseball^M
+(TID 28957): I am waiting to play baseball^M
+(TID 29030): I'm done playing soccer, leaving spot 16^M
+(TID 29051): I am waiting to play soccer^M
+(TID 29032): I'm done playing soccer, leaving spot 15^M
+(TID 29008): I am waiting to play football^M
+(TID 29006): I am waiting to play football^M
+(TID 29041): I'm done playing soccer, leaving spot 3^M
+(TID 28945): I am waiting to play baseball^M
+(TID 28966): I am waiting to play baseball^M
+(TID 29031): I am waiting to play soccer^M
+(TID 29053): I am waiting to play soccer^M
+(TID 29037): I am waiting to play soccer^M
+(TID 28971): I am waiting to play baseball^M
+(TID 28982): I am waiting to play football^M
+(TID 28981): I am waiting to play football^M
+(TID 29018): I am waiting to play soccer^M
+(TID 29060): I am waiting to play soccer^M
+(TID 29029): I am waiting to play soccer^M
+(TID 29002): Im done playing football, I'm leaving spot 9^M
+(TID 29015): Im done playing football, I'm leaving spot 6^M
+(TID 28985): Im done playing football, I'm leaving spot 7^M
+(TID 29007): Im done playing football, I'm leaving spot 17^M
+(TID 28980): Im done playing football, I'm leaving spot 14^M
+(TID 28990): Im done playing football, I'm leaving spot 3^M
+(TID 29005): Im done playing football, I'm leaving spot 5^M
+(TID 28975): Im done playing football, I'm leaving spot 16^M
+(TID 29000): Im done playing football, I'm leaving spot 22^M
+(TID 28984): I am waiting to play football^M
+(TID 29009): Im done playing football, I'm leaving spot 12^M
+(TID 28997): Im done playing football, I'm leaving spot 13^M
+(TID 28978): Im done playing football, I'm leaving spot 2^M
+(TID 29010): Im done playing football, I'm leaving spot 1^M
+(TID 29001): Im done playing football, I'm leaving spot 15^M
+(TID 29034): I am waiting to play soccer^M
+(TID 28986): Im done playing football, I'm leaving spot 8^M
+(TID 28999): Im done playing football, I'm leaving spot 10^M
+(TID 29017): Im done playing football, I'm leaving spot 18^M
+(TID 28976): Im done playing football, I'm leaving spot 21^M
+(TID 28983): Im done playing football, I'm leaving spot 20^M
+(TID 29012): Im done playing football, I'm leaving spot 4^M
+(TID 28977): Im done playing football, I'm leaving spot 11^M
+(TID 29013): Im done playing football, I'm leaving spot 19^M
+(TID 29003): I am waiting to play football^M
+(TID 28949): I'm about to play baseball, I am taking spot 1^M
+(TID 28968): I'm about to play baseball, I am taking spot 2^M
+(TID 28955): I'm about to play baseball, I am taking spot 3^M
+(TID 28961): I'm about to play baseball, I am taking spot 4^M
+(TID 28948): I'm about to play baseball, I am taking spot 5^M
+(TID 28964): I'm about to play baseball, I am taking spot 6^M
+(TID 28963): I'm about to play baseball, I am taking spot 7^M
+(TID 28947): I'm about to play baseball, I am taking spot 8^M
+(TID 28962): I'm about to play baseball, I am taking spot 9^M
+(TID 28970): I'm about to play baseball, I am taking spot 10^M
+(TID 28943): I'm about to play baseball, I am taking spot 11^M
+(TID 28946): I'm about to play baseball, I am taking spot 12^M
+(TID 28956): I'm about to play baseball, I am taking spot 13^M
+(TID 28969): I'm about to play baseball, I am taking spot 14^M
+(TID 28954): I'm about to play baseball, I am taking spot 15^M
+(TID 28938): I'm about to play baseball, I am taking spot 16^M
+(TID 28958): I'm about to play baseball, I am taking spot 17^M
+(TID 28951): I'm about to play baseball, I am taking spot 18^M
+(TID 28989): I am waiting to play football^M
+(TID 28960): I am waiting to play baseball^M
+(TID 29043): I am waiting to play soccer^M
+(TID 29033): I am waiting to play soccer^M
+(TID 29007): I am waiting to play football^M
+(TID 29021): I am waiting to play soccer^M
+(TID 28999): I am waiting to play football^M
+(TID 29017): I am waiting to play football^M
+(TID 29046): I am waiting to play soccer^M
+(TID 28978): I am waiting to play football^M
+(TID 28997): I am waiting to play football^M
+(TID 29012): I am waiting to play football^M
+(TID 28940): I am waiting to play baseball^M
+(TID 28959): I am waiting to play baseball^M
+(TID 29055): I am waiting to play soccer^M
+(TID 29015): I am waiting to play football^M
+(TID 29045): I am waiting to play soccer^M
+(TID 28992): I am waiting to play football^M
+(TID 28987): I am waiting to play football^M
+(TID 29005): I am waiting to play football^M
+(TID 29024): I am waiting to play soccer^M
+(TID 29016): I am waiting to play football^M
+(TID 29026): I am waiting to play soccer^M
+(TID 29040): I am waiting to play soccer^M
+(TID 28948): Im done playing baseball, I'm leaving spot 5^M
+(TID 28970): Im done playing baseball, I'm leaving spot 10^M
+(TID 28955): Im done playing baseball, I'm leaving spot 3^M
+(TID 28954): Im done playing baseball, I'm leaving spot 15^M
+(TID 28946): Im done playing baseball, I'm leaving spot 12^M
+(TID 28963): Im done playing baseball, I'm leaving spot 7^M
+(TID 28972): I am waiting to play baseball^M
+(TID 28998): I am waiting to play football^M
+(TID 28964): Im done playing baseball, I'm leaving spot 6^M
+(TID 28947): Im done playing baseball, I'm leaving spot 8^M
+(TID 28958): Im done playing baseball, I'm leaving spot 17^M
+(TID 28943): Im done playing baseball, I'm leaving spot 11^M
+(TID 28968): Im done playing baseball, I'm leaving spot 2^M
+(TID 28938): Im done playing baseball, I'm leaving spot 16^M
+(TID 28949): Im done playing baseball, I'm leaving spot 1^M
+(TID 28969): Im done playing baseball, I'm leaving spot 14^M
+(TID 28962): Im done playing baseball, I'm leaving spot 9^M
+(TID 28961): Im done playing baseball, I'm leaving spot 4^M
+(TID 28956): Im done playing baseball, I'm leaving spot 13^M
+(TID 28951): Im done playing baseball, I'm leaving spot 18^M
+Not enough players ^M
+(TID 29001): I am waiting to play football^M
+(TID 28996): I am waiting to play football^M
+(TID 28996): I'm about to play football, I am taking spot 1^M
+(TID 28995): I'm about to play football, I am taking spot 2^M
+(TID 28993): I'm about to play football, I am taking spot 3^M
+(TID 29006): I'm about to play football, I am taking spot 4^M
+(TID 28982): I'm about to play football, I am taking spot 5^M
+(TID 28981): I'm about to play football, I am taking spot 6^M
+(TID 28984): I'm about to play football, I am taking spot 7^M
+(TID 29003): I'm about to play football, I am taking spot 8^M
+(TID 28989): I'm about to play football, I am taking spot 9^M
+(TID 29007): I'm about to play football, I am taking spot 10^M
+(TID 28999): I'm about to play football, I am taking spot 11^M
+(TID 29017): I'm about to play football, I am taking spot 12^M
+(TID 28978): I'm about to play football, I am taking spot 13^M
+(TID 28997): I'm about to play football, I am taking spot 14^M
+(TID 29012): I'm about to play football, I am taking spot 15^M
+(TID 29015): I'm about to play football, I am taking spot 16^M
+(TID 28992): I'm about to play football, I am taking spot 17^M
+(TID 28987): I'm about to play football, I am taking spot 18^M
+(TID 29005): I'm about to play football, I am taking spot 19^M
+(TID 29016): I'm about to play football, I am taking spot 20^M
+(TID 28998): I'm about to play football, I am taking spot 21^M
+(TID 29001): I'm about to play football, I am taking spot 22^M
+(TID 29047): I am waiting to play soccer^M
+(TID 29054): I am waiting to play soccer^M
+(TID 28991): I am waiting to play football^M
+(TID 28975): I am waiting to play football^M
+(TID 28953): I am waiting to play baseball^M
+(TID 29036): I am waiting to play soccer^M
+(TID 28993): Im done playing football, I'm leaving spot 3^M
+(TID 28995): Im done playing football, I'm leaving spot 2^M
+(TID 29016): Im done playing football, I'm leaving spot 20^M
+(TID 28978): Im done playing football, I'm leaving spot 13^M
+(TID 28981): Im done playing football, I'm leaving spot 6^M
+(TID 28998): Im done playing football, I'm leaving spot 21^M
+(TID 29017): Im done playing football, I'm leaving spot 12^M
+(TID 28987): Im done playing football, I'm leaving spot 18^M
+(TID 28997): Im done playing football, I'm leaving spot 14^M
+(TID 29007): Im done playing football, I'm leaving spot 10^M
+(TID 28982): Im done playing football, I'm leaving spot 5^M
+(TID 28984): Im done playing football, I'm leaving spot 7^M
+(TID 29003): Im done playing football, I'm leaving spot 8^M
+(TID 29005): Im done playing football, I'm leaving spot 19^M
+(TID 29006): Im done playing football, I'm leaving spot 4^M
+(TID 29001): Im done playing football, I'm leaving spot 22^M
+(TID 28989): Im done playing football, I'm leaving spot 9^M
+(TID 29015): Im done playing football, I'm leaving spot 16^M
+(TID 28996): Im done playing football, I'm leaving spot 1^M
+(TID 29012): Im done playing football, I'm leaving spot 15^M
+(TID 28999): Im done playing football, I'm leaving spot 11^M
+(TID 28992): Im done playing football, I'm leaving spot 17^M
+(TID 29019): I am waiting to play soccer^M
+(TID 29019): I'm about to play soccer, I am taking spot 2^M
+(TID 29039): I'm about to play soccer, I am taking spot 3^M
+(TID 29038): I'm about to play soccer, I am taking spot 5^M
+(TID 29061): I'm about to play soccer, I am taking spot 6^M
+(TID 29051): I'm about to play soccer, I am taking spot 7^M
+(TID 29053): I'm about to play soccer, I am taking spot 8^M
+(TID 29037): I'm about to play soccer, I am taking spot 9^M
+(TID 29022): I'm about to play soccer, I am taking spot 1^M
+(TID 29018): I'm about to play soccer, I am taking spot 11^M
+(TID 29031): I'm about to play soccer, I am taking spot 12^M
+(TID 29021): I'm about to play soccer, I am taking spot 14^M
+(TID 29060): I'm about to play soccer, I am taking spot 10^M
+(TID 29043): I'm about to play soccer, I am taking spot 16^M
+(TID 29029): I'm about to play soccer, I am taking spot 13^M
+(TID 29044): I'm about to play soccer, I am taking spot 4^M
+(TID 29057): I'm about to play soccer, I am taking spot 15^M
+(TID 29045): I'm about to play soccer, I am taking spot 17^M
+(TID 29033): I'm about to play soccer, I am taking spot 18^M
+(TID 29034): I'm about to play soccer, I am taking spot 21^M
+(TID 29024): I'm about to play soccer, I am taking spot 22^M
+(TID 29026): I'm about to play soccer, I am taking spot -1^M
+(TID 29055): I'm about to play soccer, I am taking spot 19^M
+(TID 29046): I'm about to play soccer, I am taking spot 20^M
+(TID 29058): I am waiting to play soccer^M
+(TID 29048): I am waiting to play soccer^M
+(TID 29041): I am waiting to play soccer^M
+(TID 28956): I am waiting to play baseball^M
+(TID 29013): I am waiting to play football^M
+^C^M
+^[[?2004h^[]0;owen@owen-VirtualBox: ~/Desktop/Project2^G^[[01;32mowen@owen-VirtualBox^[[00m:^[[01;34m~/Desktop/Project2^[[00m$ exit^M
+^[[?2004l^Mexit^M
+
+Script done on 2022-09-16 17:48:24-04:00 [COMMAND_EXIT_CODE="130"]

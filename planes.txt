@@ -1,0 +1,693 @@
+Script started on 2022-09-16 17:39:45-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="55"]
+^[[?2004h^[]0;owen@owen-VirtualBox: ~/Desktop/Project2^G^[[01;32mowen@owen-VirtualBox^[[00m:^[[01;34m~/Desktop/Project2^[[00m$ ./planes^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^G^G^G^Gmake all^M
+^[[?2004l^Mgcc -o Omni Omni.c -I.^M
+^[[01m^[[KOmni.c:^[[m^[[K In function M-bM-^@M-^X^[[01m^[[Kplayer^[[m^[[KM-bM-^@M-^Y:^M
+^[[01m^[[KOmni.c:36:20:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kcast from pointer to integer of different size [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-to-int-cast^G-Wpointer-to-int-cast^[]8;;^G^[[m^[[K]^M
+   36 |         int type = ^[[01;35m^[[K(^[[m^[[Kint)arg;^M
+      |                    ^[[01;35m^[[K^^[[m^[[K^M
+^[[01m^[[KOmni.c:41:25:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[KcheckTeams^[[m^[[KM-bM-^@M-^Y [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+   41 |                         ^[[01;35m^[[KcheckTeams^[[m^[[K();^M
+      |                         ^[[01;35m^[[K^~~~~~~~~~^[[m^[[K^M
+^[[01m^[[KOmni.c:44:83:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Kgettid^[[m^[[KM-bM-^@M-^Y; did you mean M-bM-^@M-^X^[[01m^[[Kgetgid^[[m^[[KM-bM-^@M-^Y? [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+   44 |                         printf("(TID %d): I am waiting to play baseball\n", (int) ^[[01;35m^[[Kgettid^[[m^[[K());^M
+      |                                                                                   ^[[01;35m^[[K^~~~~~^[[m^[[K^M
+      |                                                                                   ^[[32m^[[Kgetgid^[[m^[[K^M
+^[[01m^[[KOmni.c:^[[m^[[K In function M-bM-^@M-^X^[[01m^[[Kmain^[[m^[[KM-bM-^@M-^Y:^M
+^[[01m^[[KOmni.c:209:17:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Kwait^[[m^[[KM-bM-^@M-^Y [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+  209 |                 ^[[01;35m^[[Kwait^[[m^[[K(&status);^M
+      |                 ^[[01;35m^[[K^~~~^[[m^[[K^M
+gcc -o planes planes.c -I.^M
+^[[01m^[[Kplanes.c:^[[m^[[K In function M-bM-^@M-^X^[[01m^[[Kplane^[[m^[[KM-bM-^@M-^Y:^M
+^[[01m^[[Kplanes.c:32:20:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kcast from pointer to integer of different size [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-to-int-cast^G-Wpointer-to-int-cast^[]8;;^G^[[m^[[K]^M
+   32 |         int size = ^[[01;35m^[[K(^[[m^[[Kint)arg;^M
+      |                    ^[[01;35m^[[K^^[[m^[[K^M
+^[[01m^[[Kplanes.c:34:85:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Kgettid^[[m^[[KM-bM-^@M-^Y; did you mean M-bM-^@M-^X^[[01m^[[Kgetgid^[[m^[[KM-bM-^@M-^Y? [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+   34 |                 printf("(TID %d): I'm a small plane idling for %d seconds\n", (int) ^[[01;35m^[[Kgettid^[[m^[[K(), sleep_time);^M
+      |                                                                                     ^[[01;35m^[[K^~~~~~^[[m^[[K^M
+      |                                                                                     ^[[32m^[[Kgetgid^[[m^[[K^M
+^[[01m^[[Kplanes.c:44:30:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Ksmallrun^[[m^[[KM-bM-^@M-^Y [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+   44 |                 int runway = ^[[01;35m^[[Ksmallrun^[[m^[[K();^M
+      |                              ^[[01;35m^[[K^~~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:54:17:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Kgetlocks^[[m^[[KM-bM-^@M-^Y [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+   54 |                 ^[[01;35m^[[Kgetlocks^[[m^[[K(0, runway);^M
+      |                 ^[[01;35m^[[K^~~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:56:17:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Ktakeoff^[[m^[[KM-bM-^@M-^Y [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+   56 |                 ^[[01;35m^[[Ktakeoff^[[m^[[K(0, runway);^M
+      |                 ^[[01;35m^[[K^~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:73:17:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Klanding^[[m^[[KM-bM-^@M-^Y [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+   73 |                 ^[[01;35m^[[Klanding^[[m^[[K(0, runway);^M
+      |                 ^[[01;35m^[[K^~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:84:30:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Klargerun^[[m^[[KM-bM-^@M-^Y [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+   84 |                 int runway = ^[[01;35m^[[Klargerun^[[m^[[K();^M
+      |                              ^[[01;35m^[[K^~~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:^[[m^[[K At top level:^M
+^[[01m^[[Kplanes.c:176:6:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kconflicting types for M-bM-^@M-^X^[[01m^[[Kgetlocks^[[m^[[KM-bM-^@M-^Y; have M-bM-^@M-^X^[[01m^[[Kvoid(int,  int)^[[m^[[KM-bM-^@M-^Y^M
+  176 | void ^[[01;35m^[[Kgetlocks^[[m^[[K(int size, int runway){^M
+      |      ^[[01;35m^[[K^~~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:54:17:^[[m^[[K ^[[01;36m^[[Knote: ^[[m^[[Kprevious implicit declaration of M-bM-^@M-^X^[[01m^[[Kgetlocks^[[m^[[KM-bM-^@M-^Y with type M-bM-^@M-^X^[[01m^[[Kvoid(int,  int)^[[m^[[KM-bM-^@M-^Y^M
+   54 |                 ^[[01;36m^[[Kgetlocks^[[m^[[K(0, runway);^M
+      |                 ^[[01;36m^[[K^~~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:^[[m^[[K In function M-bM-^@M-^X^[[01m^[[Kgetlocks^[[m^[[KM-bM-^@M-^Y:^M
+^[[01m^[[Kplanes.c:186:41:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kimplicit declaration of function M-bM-^@M-^X^[[01m^[[Kunlock_sig^[[m^[[KM-bM-^@M-^Y [^[[01;35m^[[K^[]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration^G-Wimplicit-function-declaration^[]8;;^G^[[m^[[K]^M
+  186 |                                         ^[[01;35m^[[Kunlock_sig^[[m^[[K(runway%10);^M
+      |                                         ^[[01;35m^[[K^~~~~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:^[[m^[[K At top level:^M
+^[[01m^[[Kplanes.c:225:6:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kconflicting types for M-bM-^@M-^X^[[01m^[[Kunlock_sig^[[m^[[KM-bM-^@M-^Y; have M-bM-^@M-^X^[[01m^[[Kvoid(int)^[[m^[[KM-bM-^@M-^Y^M
+  225 | void ^[[01;35m^[[Kunlock_sig^[[m^[[K(int lockNum){^M
+      |      ^[[01;35m^[[K^~~~~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:186:41:^[[m^[[K ^[[01;36m^[[Knote: ^[[m^[[Kprevious implicit declaration of M-bM-^@M-^X^[[01m^[[Kunlock_sig^[[m^[[KM-bM-^@M-^Y with type M-bM-^@M-^X^[[01m^[[Kvoid(int)^[[m^[[KM-bM-^@M-^Y^M
+  186 |                                         ^[[01;36m^[[Kunlock_sig^[[m^[[K(runway%10);^M
+      |                                         ^[[01;36m^[[K^~~~~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:246:6:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kconflicting types for M-bM-^@M-^X^[[01m^[[Ktakeoff^[[m^[[KM-bM-^@M-^Y; have M-bM-^@M-^X^[[01m^[[Kvoid(int,  int)^[[m^[[KM-bM-^@M-^Y^M
+  246 | void ^[[01;35m^[[Ktakeoff^[[m^[[K(int size, int runway){^M
+      |      ^[[01;35m^[[K^~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:56:17:^[[m^[[K ^[[01;36m^[[Knote: ^[[m^[[Kprevious implicit declaration of M-bM-^@M-^X^[[01m^[[Ktakeoff^[[m^[[KM-bM-^@M-^Y with type M-bM-^@M-^X^[[01m^[[Kvoid(int,  int)^[[m^[[KM-bM-^@M-^Y^M
+   56 |                 ^[[01;36m^[[Ktakeoff^[[m^[[K(0, runway);^M
+      |                 ^[[01;36m^[[K^~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:272:6:^[[m^[[K ^[[01;35m^[[Kwarning: ^[[m^[[Kconflicting types for M-bM-^@M-^X^[[01m^[[Klanding^[[m^[[KM-bM-^@M-^Y; have M-bM-^@M-^X^[[01m^[[Kvoid(int,  int)^[[m^[[KM-bM-^@M-^Y^M
+  272 | void ^[[01;35m^[[Klanding^[[m^[[K(int size, int runway){^M
+      |      ^[[01;35m^[[K^~~~~~~^[[m^[[K^M
+^[[01m^[[Kplanes.c:73:17:^[[m^[[K ^[[01;36m^[[Knote: ^[[m^[[Kprevious implicit declaration of M-bM-^@M-^X^[[01m^[[Klanding^[[m^[[KM-bM-^@M-^Y with type M-bM-^@M-^X^[[01m^[[Kvoid(int,  int)^[[m^[[KM-bM-^@M-^Y^M
+   73 |                 ^[[01;36m^[[Klanding^[[m^[[K(0, runway);^M
+      |                 ^[[01;36m^[[K^~~~~~~^[[m^[[K^M
+^[[?2004h^[]0;owen@owen-VirtualBox: ~/Desktop/Project2^G^[[01;32mowen@owen-VirtualBox^[[00m:^[[01;34m~/Desktop/Project2^[[00m$ ./planes^M
+^[[?2004l^M(TID 28670): I'm a small plane idling for 9 seconds^M
+(TID 28669): I'm a small plane idling for 11 seconds^M
+(TID 28672): I'm a small plane idling for 1 seconds^M
+(TID 28673): I'm a small plane idling for 21 seconds^M
+(TID 28676): I'm a small plane idling for 24 seconds^M
+(TID 28674): I'm a small plane idling for 17 seconds^M
+(TID 28675): I'm a small plane idling for 22 seconds^M
+(TID 28677): I'm a small plane idling for 28 seconds^M
+(TID 28679): I'm a small plane idling for 18 seconds^M
+(TID 28680): I'm a small plane idling for 17 seconds^M
+(TID 28682): I'm a small plane idling for 27 seconds^M
+(TID 28683): I'm a small plane idling for 11 seconds^M
+(TID 28684): I'm a small plane idling for 3 seconds^M
+(TID 28671): I'm a small plane idling for 23 seconds^M
+(TID 28686): I'm a small plane idling for 26 seconds^M
+(TID 28690): I'm a small plane idling for 3 seconds^M
+(TID 28687): I'm a small plane idling for 18 seconds^M
+(TID 28691): I'm a small plane idling for 2 seconds^M
+(TID 28689): I'm a small plane idling for 7 seconds^M
+(TID 28688): I'm a small plane idling for 22 seconds^M
+(TID 28692): I'm a small plane idling for 1 seconds^M
+(TID 28694): I'm a small plane idling for 25 seconds^M
+(TID 28695): I'm a small plane idling for 24 seconds^M
+(TID 28693): I'm a small plane idling for 2 seconds^M
+(TID 28696): I'm a small plane idling for 3 seconds^M
+(TID 28678): I'm a small plane idling for 9 seconds^M
+(TID 28685): I'm a small plane idling for 17 seconds^M
+(TID 28698): I'm a small plane idling for 16 seconds^M
+(TID 28699): I'm a large plane idling for 3 seconds^M
+(TID 28697): I'm a small plane idling for 15 seconds^M
+(TID 28700): I'm a large plane idling for 27 seconds^M
+(TID 28701): I'm a large plane idling for 24 seconds^M
+(TID 28702): I'm a large plane idling for 7 seconds^M
+(TID 28703): I'm a large plane idling for 21 seconds^M
+(TID 28704): I'm a large plane idling for 17 seconds^M
+(TID 28705): I'm a large plane idling for 28 seconds^M
+(TID 28706): I'm a large plane idling for 15 seconds^M
+(TID 28707): I'm a large plane idling for 4 seconds^M
+(TID 28708): I'm a large plane idling for 21 seconds^M
+(TID 28710): I'm a large plane idling for 13 seconds^M
+(TID 28711): I'm a large plane idling for 22 seconds^M
+(TID 28712): I'm a large plane idling for 8 seconds^M
+(TID 28709): I'm a large plane idling for 3 seconds^M
+(TID 28713): I'm a large plane idling for 11 seconds^M
+(TID 28681): I'm a small plane idling for 2 seconds^M
+(TID 28672): I'm a small plane awaiting take off at terminal for runway order 35^M
+(TID 28672): Takeoff possible! I'm a small plane taking off in runway order 35^M
+(TID 28672): Currently on runway 3 for 4 seconds. ^M
+(TID 28692): I'm a small plane awaiting take off at terminal for runway order 34^M
+(TID 28693): I'm a small plane awaiting take off at terminal for runway order 64^M
+(TID 28693): Takeoff possible! I'm a small plane taking off in runway order 64^M
+(TID 28693): Currently on runway 6 for 2 seconds. ^M
+(TID 28681): I'm a small plane awaiting take off at terminal for runway order 64^M
+(TID 28691): I'm a small plane awaiting take off at terminal for runway order 43^M
+(TID 28690): I'm a small plane awaiting take off at terminal for runway order 21^M
+(TID 28690): Takeoff possible! I'm a small plane taking off in runway order 21^M
+(TID 28690): Currently on runway 2 for 3 seconds. ^M
+(TID 28696): I'm a small plane awaiting take off at terminal for runway order 32^M
+(TID 28699): I'm a large plane awaiting take off at terminal for runway order 641^M
+(TID 28709): I'm a large plane awaiting take off at terminal for runway order 641^M
+(TID 28684): I'm a small plane awaiting take off at terminal for runway order 64^M
+(TID 28707): I'm a large plane awaiting take off at terminal for runway order 235^M
+(TID 28693): Currently on runway 4 for 3 seconds, just left 6. ^M
+(TID 28672): Currently on runway 5 for 3 seconds, just left 3. ^M
+(TID 28690): Currently on runway 1 for 4 seconds, just left 2. ^M
+(TID 28696): Takeoff possible! I'm a small plane taking off in runway order 32^M
+(TID 28696): Currently on runway 3 for 2 seconds. ^M
+(TID 28689): I'm a small plane awaiting take off at terminal for runway order 32^M
+(TID 28702): I'm a large plane awaiting take off at terminal for runway order 146^M
+(TID 28693): Takeoff! leaving 4^M
+(TID 28693): I'm a small plane currently flying for 13 seconds.^M
+(TID 28681): Takeoff possible! I'm a small plane taking off in runway order 64^M
+(TID 28681): Currently on runway 6 for 3 seconds. ^M
+(TID 28696): Currently on runway 2 for 4 seconds, just left 3. ^M
+(TID 28712): I'm a large plane awaiting take off at terminal for runway order 146^M
+(TID 28672): Takeoff! leaving 5^M
+(TID 28672): I'm a small plane currently flying for 29 seconds.^M
+(TID 28678): I'm a small plane awaiting take off at terminal for runway order 43^M
+(TID 28670): I'm a small plane awaiting take off at terminal for runway order 46^M
+(TID 28690): Takeoff! leaving 1^M
+(TID 28690): I'm a small plane currently flying for 21 seconds.^M
+(TID 28681): Currently on runway 4 for 4 seconds, just left 6. ^M
+(TID 28669): I'm a small plane awaiting take off at terminal for runway order 12^M
+(TID 28683): I'm a small plane awaiting take off at terminal for runway order 12^M
+(TID 28713): I'm a large plane awaiting take off at terminal for runway order 235^M
+(TID 28696): Takeoff! leaving 2^M
+(TID 28696): I'm a small plane currently flying for 2 seconds.^M
+(TID 28689): Takeoff possible! I'm a small plane taking off in runway order 32^M
+(TID 28689): Currently on runway 3 for 2 seconds. ^M
+(TID 28710): I'm a large plane awaiting take off at terminal for runway order 235^M
+(TID 28696): Done flying, I'm a small plane awaiting landing in runway order 41^M
+(TID 28689): Currently on runway 2 for 2 seconds, just left 3. ^M
+(TID 28681): Takeoff! leaving 4^M
+(TID 28681): I'm a small plane currently flying for 2 seconds.^M
+(TID 28699): Takeoff possible! I'm a large plane taking off in runway order 641^M
+(TID 28699): Currently on runway 6 for 2 seconds. ^M
+(TID 28697): I'm a small plane awaiting take off at terminal for runway order 64^M
+(TID 28706): I'm a large plane awaiting take off at terminal for runway order 532^M
+(TID 28689): Takeoff! leaving 2^M
+(TID 28689): I'm a small plane currently flying for 16 seconds.^M
+(TID 28710): Takeoff possible! I'm a large plane taking off in runway order 235^M
+(TID 28710): Currently on runway 2 for 4 seconds. ^M
+(TID 28698): I'm a small plane awaiting take off at terminal for runway order 41^M
+(TID 28699): Currently on runway 4 for 4 seconds, just left 6. ^M
+(TID 28681): Done flying, I'm a small plane awaiting landing in runway order 41^M
+(TID 28685): I'm a small plane awaiting take off at terminal for runway order 41^M
+(TID 28704): I'm a large plane awaiting take off at terminal for runway order 641^M
+(TID 28680): I'm a small plane awaiting take off at terminal for runway order 34^M
+(TID 28674): I'm a small plane awaiting take off at terminal for runway order 41^M
+(TID 28687): I'm a small plane awaiting take off at terminal for runway order 35^M
+(TID 28679): I'm a small plane awaiting take off at terminal for runway order 34^M
+(TID 28693): Done flying, I'm a small plane awaiting landing in runway order 23^M
+(TID 28710): Currently on runway 3 for 2 seconds, just left 2. ^M
+(TID 28699): Taking off on runway 1 for 3 seconds, just left 4. ^M
+(TID 28670): Takeoff possible! I'm a small plane taking off in runway order 46^M
+(TID 28670): Currently on runway 4 for 4 seconds. ^M
+(TID 28673): I'm a small plane awaiting take off at terminal for runway order 53^M
+(TID 28708): I'm a large plane awaiting take off at terminal for runway order 641^M
+(TID 28703): I'm a large plane awaiting take off at terminal for runway order 641^M
+(TID 28675): I'm a small plane awaiting take off at terminal for runway order 41^M
+(TID 28688): I'm a small plane awaiting take off at terminal for runway order 46^M
+(TID 28711): I'm a large plane awaiting take off at terminal for runway order 235^M
+(TID 28710): Taking off on runway 5 for 2 seconds, just left 3. ^M
+(TID 28693): Landing possible! I'm a small plane landing in runway order 23^M
+(TID 28693): Landing on runway 2 for 4 seconds. ^M
+(TID 28671): I'm a small plane awaiting take off at terminal for runway order 43^M
+(TID 28699): Takeoff! leaving 1^M
+(TID 28699): I'm a large plane currently flying for 18 seconds. ^M
+(TID 28701): I'm a large plane awaiting take off at terminal for runway order 641^M
+(TID 28676): I'm a small plane awaiting take off at terminal for runway order 43^M
+(TID 28695): I'm a small plane awaiting take off at terminal for runway order 12^M
+(TID 28710): Takeoff! leaving 5^M
+(TID 28710): I'm a large plane currently flying for 18 seconds. ^M
+(TID 28670): Currently on runway 6 for 4 seconds, just left 4. ^M
+(TID 28681): Landing possible! I'm a small plane landing in runway order 41^M
+(TID 28681): Landing on runway 4 for 4 seconds. ^M
+(TID 28694): I'm a small plane awaiting take off at terminal for runway order 12^M
+(TID 28686): I'm a small plane awaiting take off at terminal for runway order 32^M
+(TID 28693): Landing on runway 3 for 3 seconds, just left 2. ^M
+(TID 28682): I'm a small plane awaiting take off at terminal for runway order 12^M
+(TID 28700): I'm a large plane awaiting take off at terminal for runway order 146^M
+(TID 28677): I'm a small plane awaiting take off at terminal for runway order 12^M
+(TID 28705): I'm a large plane awaiting take off at terminal for runway order 235^M
+(TID 28670): Takeoff! leaving 6^M
+(TID 28670): I'm a small plane currently flying for 24 seconds.^M
+(TID 28681): Landing on runway 1 for 3 seconds, just left 4. ^M
+(TID 28697): Takeoff possible! I'm a small plane taking off in runway order 64^M
+(TID 28697): Currently on runway 6 for 4 seconds. ^M
+(TID 28693): Runway cleared! leaving 3^M
+(TID 28693): I'm a small plane waiting in terminal^M
+(TID 28706): Takeoff possible! I'm a large plane taking off in runway order 532^M
+(TID 28706): Currently on runway 5 for 4 seconds. ^M
+(TID 28690): Done flying, I'm a small plane awaiting landing in runway order 53^M
+(TID 28681): Runway cleared! leaving 1^M
+(TID 28681): I'm a small plane waiting in terminal^M
+(TID 28689): Done flying, I'm a small plane awaiting landing in runway order 41^M
+(TID 28697): Currently on runway 4 for 3 seconds, just left 6. ^M
+(TID 28706): Currently on runway 3 for 2 seconds, just left 5. ^M
+(TID 28706): Taking off on runway 2 for 3 seconds, just left 3. ^M
+(TID 28687): Takeoff possible! I'm a small plane taking off in runway order 35^M
+(TID 28687): Currently on runway 3 for 2 seconds. ^M
+(TID 28697): Takeoff! leaving 4^M
+(TID 28697): I'm a small plane currently flying for 18 seconds.^M
+(TID 28675): Takeoff possible! I'm a small plane taking off in runway order 41^M
+(TID 28675): Currently on runway 4 for 2 seconds. ^M
+(TID 28672): Done flying, I'm a small plane awaiting landing in runway order 12^M
+(TID 28687): Currently on runway 5 for 2 seconds, just left 3. ^M
+(TID 28675): Currently on runway 1 for 4 seconds, just left 4. ^M
+(TID 28692): Takeoff possible! I'm a small plane taking off in runway order 34^M
+(TID 28692): Currently on runway 3 for 4 seconds. ^M
+(TID 28706): Takeoff! leaving 2^M
+(TID 28706): I'm a large plane currently flying for 6 seconds. ^M
+(TID 28687): Takeoff! leaving 5^M
+(TID 28687): I'm a small plane currently flying for 17 seconds.^M
+(TID 28699): Done flying, I'm a large plane awaiting to land in runway order 641^M
+(TID 28692): Currently on runway 4 for 4 seconds, just left 3. ^M
+(TID 28686): Takeoff possible! I'm a small plane taking off in runway order 32^M
+(TID 28675): Takeoff! leaving 1^M
+(TID 28675): I'm a small plane currently flying for 13 seconds.^M
+(TID 28686): Currently on runway 3 for 2 seconds. ^M
+(TID 28710): Done flying, I'm a large plane awaiting to land in runway order 532^M
+(TID 28686): Currently on runway 2 for 2 seconds, just left 3. ^M
+(TID 28673): Takeoff possible! I'm a small plane taking off in runway order 53^M
+(TID 28673): Currently on runway 5 for 3 seconds. ^M
+(TID 28706): Done flying, I'm a large plane awaiting to land in runway order 532^M
+(TID 28692): Takeoff! leaving 4^M
+(TID 28692): I'm a small plane currently flying for 6 seconds.^M
+(TID 28698): Takeoff possible! I'm a small plane taking off in runway order 41^M
+(TID 28698): Currently on runway 4 for 2 seconds. ^M
+(TID 28686): Takeoff! leaving 2^M
+(TID 28686): I'm a small plane currently flying for 15 seconds.^M
+(TID 28673): Currently on runway 3 for 3 seconds, just left 5. ^M
+(TID 28698): Currently on runway 1 for 4 seconds, just left 4. ^M
+(TID 28688): Takeoff possible! I'm a small plane taking off in runway order 46^M
+(TID 28688): Currently on runway 4 for 2 seconds. ^M
+(TID 28688): Currently on runway 6 for 2 seconds, just left 4. ^M
+(TID 28673): Takeoff! leaving 3^M
+(TID 28673): I'm a small plane currently flying for 4 seconds.^M
+(TID 28678): Takeoff possible! I'm a small plane taking off in runway order 43^M
+(TID 28678): Currently on runway 4 for 3 seconds. ^M
+(TID 28692): Done flying, I'm a small plane awaiting landing in runway order 43^M
+(TID 28698): Takeoff! leaving 1^M
+(TID 28698): I'm a small plane currently flying for 19 seconds.^M
+(TID 28694): Takeoff possible! I'm a small plane taking off in runway order 12^M
+(TID 28694): Currently on runway 1 for 3 seconds. ^M
+(TID 28688): Takeoff! leaving 6^M
+(TID 28688): I'm a small plane currently flying for 2 seconds.^M
+(TID 28670): Done flying, I'm a small plane awaiting landing in runway order 32^M
+(TID 28678): Currently on runway 3 for 3 seconds, just left 4. ^M
+(TID 28684): Takeoff possible! I'm a small plane taking off in runway order 64^M
+(TID 28684): Currently on runway 6 for 2 seconds. ^M
+(TID 28697): Done flying, I'm a small plane awaiting landing in runway order 12^M
+(TID 28688): Done flying, I'm a small plane awaiting landing in runway order 46^M
+(TID 28673): Done flying, I'm a small plane awaiting landing in runway order 41^M
+(TID 28675): Done flying, I'm a small plane awaiting landing in runway order 23^M
+(TID 28694): Currently on runway 2 for 3 seconds, just left 1. ^M
+(TID 28684): Currently on runway 4 for 4 seconds, just left 6. ^M
+(TID 28678): Takeoff! leaving 3^M
+(TID 28678): I'm a small plane currently flying for 11 seconds.^M
+(TID 28690): Landing possible! I'm a small plane landing in runway order 53^M
+(TID 28690): Landing on runway 5 for 4 seconds. ^M
+(TID 28687): Done flying, I'm a small plane awaiting landing in runway order 43^M
+(TID 28694): Takeoff! leaving 2^M
+(TID 28694): I'm a small plane currently flying for 16 seconds.^M
+(TID 28677): Takeoff possible! I'm a small plane taking off in runway order 12^M
+(TID 28677): Currently on runway 1 for 4 seconds. ^M
+(TID 28684): Takeoff! leaving 4^M
+(TID 28684): I'm a small plane currently flying for 9 seconds.^M
+(TID 28688): Landing possible! I'm a small plane landing in runway order 46^M
+(TID 28688): Landing on runway 4 for 4 seconds. ^M
+(TID 28690): Landing on runway 3 for 2 seconds, just left 5. ^M
+(TID 28686): Done flying, I'm a small plane awaiting landing in runway order 23^M
+(TID 28690): Runway cleared! leaving 3^M
+(TID 28690): I'm a small plane waiting in terminal^M
+(TID 28677): Currently on runway 2 for 4 seconds, just left 1. ^M
+(TID 28688): Landing on runway 6 for 2 seconds, just left 4. ^M
+(TID 28687): Landing possible! I'm a small plane landing in runway order 43^M
+(TID 28687): Landing on runway 4 for 4 seconds. ^M
+(TID 28688): Runway cleared! leaving 6^M
+(TID 28688): I'm a small plane waiting in terminal^M
+(TID 28677): Takeoff! leaving 2^M
+(TID 28677): I'm a small plane currently flying for 15 seconds.^M
+(TID 28683): Takeoff possible! I'm a small plane taking off in runway order 12^M
+(TID 28683): Currently on runway 1 for 3 seconds. ^M
+(TID 28678): Done flying, I'm a small plane awaiting landing in runway order 46^M
+(TID 28687): Landing on runway 3 for 2 seconds, just left 4. ^M
+(TID 28678): Landing possible! I'm a small plane landing in runway order 46^M
+(TID 28678): Landing on runway 4 for 2 seconds. ^M
+(TID 28684): Done flying, I'm a small plane awaiting landing in runway order 64^M
+(TID 28683): Currently on runway 2 for 4 seconds, just left 1. ^M
+(TID 28687): Runway cleared! leaving 3^M
+(TID 28687): I'm a small plane waiting in terminal^M
+(TID 28678): Landing on runway 6 for 3 seconds, just left 4. ^M
+(TID 28696): Landing possible! I'm a small plane landing in runway order 41^M
+(TID 28696): Landing on runway 4 for 3 seconds. ^M
+(TID 28698): Done flying, I'm a small plane awaiting landing in runway order 34^M
+(TID 28696): Landing on runway 1 for 3 seconds, just left 4. ^M
+(TID 28698): Landing possible! I'm a small plane landing in runway order 34^M
+(TID 28698): Landing on runway 3 for 2 seconds. ^M
+(TID 28678): Runway cleared! leaving 6^M
+(TID 28678): I'm a small plane waiting in terminal^M
+(TID 28683): Takeoff! leaving 2^M
+(TID 28683): I'm a small plane currently flying for 1 seconds.^M
+(TID 28694): Done flying, I'm a small plane awaiting landing in runway order 41^M
+(TID 28683): Done flying, I'm a small plane awaiting landing in runway order 35^M
+(TID 28698): Landing on runway 4 for 4 seconds, just left 3. ^M
+(TID 28706): Landing possible! I'm a small plane landing in runway order 532^M
+(TID 28706): Landing on runway 5 for 3 seconds. ^M
+(TID 28696): Runway cleared! leaving 1^M
+(TID 28696): I'm a small plane waiting in terminal^M
+(TID 28706): Landing on runway 3 for 2 seconds, just left 5. ^M
+(TID 28698): Runway cleared! leaving 4^M
+(TID 28698): I'm a small plane waiting in terminal^M
+(TID 28689): Landing possible! I'm a small plane landing in runway order 41^M
+(TID 28689): Landing on runway 4 for 3 seconds. ^M
+(TID 28706): Currently on runway 2 for 4 seconds, just left 3. ^M
+(TID 28683): Landing possible! I'm a small plane landing in runway order 35^M
+(TID 28683): Landing on runway 3 for 3 seconds. ^M
+(TID 28677): Done flying, I'm a small plane awaiting landing in runway order 46^M
+(TID 28689): Landing on runway 1 for 2 seconds, just left 4. ^M
+(TID 28677): Landing possible! I'm a small plane landing in runway order 46^M
+(TID 28677): Landing on runway 4 for 4 seconds. ^M
+(TID 28683): Landing on runway 5 for 2 seconds, just left 3. ^M
+(TID 28689): Runway cleared! leaving 1^M
+(TID 28689): I'm a small plane waiting in terminal^M
+(TID 28706): Runway cleared! leaving 2^M
+(TID 28706): I'm a large plane waiting in terminal^M
+(TID 28682): Takeoff possible! I'm a small plane taking off in runway order 12^M
+(TID 28682): Currently on runway 1 for 2 seconds. ^M
+(TID 28683): Runway cleared! leaving 5^M
+(TID 28683): I'm a small plane waiting in terminal^M
+(TID 28677): Landing on runway 6 for 4 seconds, just left 4. ^M
+(TID 28680): Takeoff possible! I'm a small plane taking off in runway order 34^M
+(TID 28680): Currently on runway 3 for 4 seconds. ^M
+(TID 28682): Currently on runway 2 for 2 seconds, just left 1. ^M
+(TID 28682): Takeoff! leaving 2^M
+(TID 28682): I'm a small plane currently flying for 15 seconds.^M
+(TID 28672): Landing possible! I'm a small plane landing in runway order 12^M
+(TID 28672): Landing on runway 1 for 3 seconds. ^M
+(TID 28680): Currently on runway 4 for 4 seconds, just left 3. ^M
+(TID 28677): Runway cleared! leaving 6^M
+(TID 28677): I'm a small plane waiting in terminal^M
+(TID 28672): Landing on runway 2 for 3 seconds, just left 1. ^M
+(TID 28680): Takeoff! leaving 4^M
+(TID 28680): I'm a small plane currently flying for 28 seconds.^M
+(TID 28703): Takeoff possible! I'm a large plane taking off in runway order 641^M
+(TID 28703): Currently on runway 6 for 4 seconds. ^M
+(TID 28672): Runway cleared! leaving 2^M
+(TID 28672): I'm a small plane waiting in terminal^M
+(TID 28675): Landing possible! I'm a small plane landing in runway order 23^M
+(TID 28675): Landing on runway 2 for 2 seconds. ^M
+(TID 28675): Landing on runway 3 for 4 seconds, just left 2. ^M
+(TID 28703): Currently on runway 4 for 3 seconds, just left 6. ^M
+(TID 28675): Runway cleared! leaving 3^M
+(TID 28675): I'm a small plane waiting in terminal^M
+(TID 28711): Takeoff possible! I'm a large plane taking off in runway order 235^M
+(TID 28711): Currently on runway 2 for 3 seconds. ^M
+(TID 28703): Taking off on runway 1 for 4 seconds, just left 4. ^M
+(TID 28684): Landing possible! I'm a small plane landing in runway order 64^M
+(TID 28684): Landing on runway 6 for 4 seconds. ^M
+(TID 28682): Done flying, I'm a small plane awaiting landing in runway order 23^M
+(TID 28711): Currently on runway 3 for 2 seconds, just left 2. ^M
+(TID 28703): Takeoff! leaving 1^M
+(TID 28703): I'm a large plane currently flying for 5 seconds. ^M
+(TID 28695): Takeoff possible! I'm a small plane taking off in runway order 12^M
+(TID 28695): Currently on runway 1 for 3 seconds. ^M
+(TID 28684): Landing on runway 4 for 2 seconds, just left 6. ^M
+(TID 28711): Taking off on runway 5 for 4 seconds, just left 3. ^M
+(TID 28684): Runway cleared! leaving 4^M
+(TID 28684): I'm a small plane waiting in terminal^M
+(TID 28691): Takeoff possible! I'm a small plane taking off in runway order 43^M
+(TID 28691): Currently on runway 4 for 3 seconds. ^M
+(TID 28695): Currently on runway 2 for 4 seconds, just left 1. ^M
+(TID 28711): Takeoff! leaving 5^M
+(TID 28711): I'm a large plane currently flying for 13 seconds. ^M
+(TID 28703): Done flying, I'm a large plane awaiting to land in runway order 641^M
+(TID 28691): Currently on runway 3 for 4 seconds, just left 4. ^M
+(TID 28673): Landing possible! I'm a small plane landing in runway order 41^M
+(TID 28673): Landing on runway 4 for 2 seconds. ^M
+(TID 28695): Takeoff! leaving 2^M
+(TID 28695): I'm a small plane currently flying for 21 seconds.^M
+(TID 28673): Landing on runway 1 for 4 seconds, just left 4. ^M
+(TID 28691): Takeoff! leaving 3^M
+(TID 28691): I'm a small plane currently flying for 27 seconds.^M
+(TID 28710): Landing possible! I'm a small plane landing in runway order 532^M
+(TID 28710): Landing on runway 5 for 2 seconds. ^M
+(TID 28673): Runway cleared! leaving 1^M
+(TID 28673): I'm a small plane waiting in terminal^M
+(TID 28703): Landing possible! I'm a small plane landing in runway order 641^M
+(TID 28703): Landing on runway 6 for 2 seconds. ^M
+(TID 28710): Landing on runway 3 for 2 seconds, just left 5. ^M
+(TID 28710): Currently on runway 2 for 3 seconds, just left 3. ^M
+(TID 28703): Landing on runway 4 for 2 seconds, just left 6. ^M
+(TID 28703): Currently on runway 1 for 4 seconds, just left 4. ^M
+(TID 28692): Landing possible! I'm a small plane landing in runway order 43^M
+(TID 28692): Landing on runway 4 for 4 seconds. ^M
+(TID 28710): Runway cleared! leaving 2^M
+(TID 28710): I'm a large plane waiting in terminal^M
+(TID 28680): Done flying, I'm a small plane awaiting landing in runway order 21^M
+(TID 28711): Done flying, I'm a large plane awaiting to land in runway order 641^M
+(TID 28703): Runway cleared! leaving 1^M
+(TID 28703): I'm a large plane waiting in terminal^M
+(TID 28692): Landing on runway 3 for 4 seconds, just left 4. ^M
+(TID 28680): Landing possible! I'm a small plane landing in runway order 21^M
+(TID 28680): Landing on runway 2 for 4 seconds. ^M
+(TID 28680): Landing on runway 1 for 3 seconds, just left 2. ^M
+(TID 28692): Runway cleared! leaving 3^M
+(TID 28692): I'm a small plane waiting in terminal^M
+(TID 28713): Takeoff possible! I'm a large plane taking off in runway order 235^M
+(TID 28713): Currently on runway 2 for 4 seconds. ^M
+(TID 28680): Runway cleared! leaving 1^M
+(TID 28680): I'm a small plane waiting in terminal^M
+(TID 28694): Landing possible! I'm a small plane landing in runway order 41^M
+(TID 28694): Landing on runway 4 for 3 seconds. ^M
+(TID 28713): Currently on runway 3 for 2 seconds, just left 2. ^M
+(TID 28695): Done flying, I'm a small plane awaiting landing in runway order 41^M
+(TID 28694): Landing on runway 1 for 2 seconds, just left 4. ^M
+(TID 28713): Taking off on runway 5 for 2 seconds, just left 3. ^M
+(TID 28682): Landing possible! I'm a small plane landing in runway order 23^M
+(TID 28682): Landing on runway 2 for 3 seconds. ^M
+(TID 28694): Runway cleared! leaving 1^M
+(TID 28694): I'm a small plane waiting in terminal^M
+(TID 28701): Takeoff possible! I'm a large plane taking off in runway order 641^M
+(TID 28701): Currently on runway 6 for 4 seconds. ^M
+(TID 28713): Takeoff! leaving 5^M
+(TID 28713): I'm a large plane currently flying for 3 seconds. ^M
+(TID 28682): Landing on runway 3 for 4 seconds, just left 2. ^M
+(TID 28713): Done flying, I'm a large plane awaiting to land in runway order 532^M
+(TID 28701): Currently on runway 4 for 2 seconds, just left 6. ^M
+(TID 28691): Done flying, I'm a small plane awaiting landing in runway order 46^M
+(TID 28682): Runway cleared! leaving 3^M
+(TID 28682): I'm a small plane waiting in terminal^M
+(TID 28707): Takeoff possible! I'm a large plane taking off in runway order 235^M
+(TID 28707): Currently on runway 2 for 2 seconds. ^M
+(TID 28701): Taking off on runway 1 for 2 seconds, just left 4. ^M
+(TID 28691): Landing possible! I'm a small plane landing in runway order 46^M
+(TID 28691): Landing on runway 4 for 4 seconds. ^M
+(TID 28707): Currently on runway 3 for 3 seconds, just left 2. ^M
+(TID 28701): Takeoff! leaving 1^M
+(TID 28701): I'm a large plane currently flying for 23 seconds. ^M
+(TID 28669): Takeoff possible! I'm a small plane taking off in runway order 12^M
+(TID 28669): Currently on runway 1 for 2 seconds. ^M
+(TID 28691): Landing on runway 6 for 3 seconds, just left 4. ^M
+(TID 28669): Currently on runway 2 for 4 seconds, just left 1. ^M
+(TID 28695): Landing possible! I'm a small plane landing in runway order 41^M
+(TID 28695): Landing on runway 4 for 2 seconds. ^M
+(TID 28707): Taking off on runway 5 for 4 seconds, just left 3. ^M
+(TID 28695): Landing on runway 1 for 2 seconds, just left 4. ^M
+(TID 28671): Takeoff possible! I'm a small plane taking off in runway order 43^M
+(TID 28671): Currently on runway 4 for 4 seconds. ^M
+(TID 28691): Runway cleared! leaving 6^M
+(TID 28691): I'm a small plane waiting in terminal^M
+(TID 28669): Takeoff! leaving 2^M
+(TID 28669): I'm a small plane currently flying for 29 seconds.^M
+(TID 28695): Runway cleared! leaving 1^M
+(TID 28695): I'm a small plane waiting in terminal^M
+(TID 28697): Landing possible! I'm a small plane landing in runway order 12^M
+(TID 28697): Landing on runway 1 for 4 seconds. ^M
+(TID 28707): Takeoff! leaving 5^M
+(TID 28707): I'm a large plane currently flying for 14 seconds. ^M
+(TID 28671): Currently on runway 3 for 3 seconds, just left 4. ^M
+(TID 28697): Landing on runway 2 for 3 seconds, just left 1. ^M
+(TID 28700): Takeoff possible! I'm a large plane taking off in runway order 146^M
+(TID 28700): Currently on runway 1 for 3 seconds. ^M
+(TID 28671): Takeoff! leaving 3^M
+(TID 28671): I'm a small plane currently flying for 28 seconds.^M
+(TID 28700): Currently on runway 4 for 4 seconds, just left 1. ^M
+(TID 28697): Runway cleared! leaving 2^M
+(TID 28697): I'm a small plane waiting in terminal^M
+(TID 28713): Landing possible! I'm a small plane landing in runway order 532^M
+(TID 28713): Landing on runway 5 for 4 seconds. ^M
+(TID 28700): Taking off on runway 6 for 3 seconds, just left 4. ^M
+(TID 28713): Landing on runway 3 for 3 seconds, just left 5. ^M
+(TID 28685): Takeoff possible! I'm a small plane taking off in runway order 41^M
+(TID 28685): Currently on runway 4 for 4 seconds. ^M
+(TID 28700): Takeoff! leaving 6^M
+(TID 28700): I'm a large plane currently flying for 19 seconds. ^M
+(TID 28713): Currently on runway 2 for 3 seconds, just left 3. ^M
+(TID 28707): Done flying, I'm a large plane awaiting to land in runway order 532^M
+(TID 28685): Currently on runway 1 for 4 seconds, just left 4. ^M
+(TID 28676): Takeoff possible! I'm a small plane taking off in runway order 43^M
+(TID 28676): Currently on runway 4 for 4 seconds. ^M
+(TID 28701): Done flying, I'm a large plane awaiting to land in runway order 641^M
+(TID 28713): Runway cleared! leaving 2^M
+(TID 28713): I'm a large plane waiting in terminal^M
+(TID 28676): Currently on runway 3 for 4 seconds, just left 4. ^M
+(TID 28685): Takeoff! leaving 1^M
+(TID 28685): I'm a small plane currently flying for 2 seconds.^M
+(TID 28704): Takeoff possible! I'm a large plane taking off in runway order 641^M
+(TID 28704): Currently on runway 6 for 3 seconds. ^M
+(TID 28685): Done flying, I'm a small plane awaiting landing in runway order 32^M
+(TID 28704): Currently on runway 4 for 2 seconds, just left 6. ^M
+(TID 28676): Takeoff! leaving 3^M
+(TID 28676): I'm a small plane currently flying for 11 seconds.^M
+(TID 28707): Landing possible! I'm a small plane landing in runway order 532^M
+(TID 28707): Landing on runway 5 for 2 seconds. ^M
+(TID 28704): Taking off on runway 1 for 4 seconds, just left 4. ^M
+(TID 28707): Landing on runway 3 for 4 seconds, just left 5. ^M
+(TID 28704): Takeoff! leaving 1^M
+(TID 28704): I'm a large plane currently flying for 9 seconds. ^M
+(TID 28708): Takeoff possible! I'm a large plane taking off in runway order 641^M
+(TID 28708): Currently on runway 6 for 2 seconds. ^M
+(TID 28669): Done flying, I'm a small plane awaiting landing in runway order 21^M
+(TID 28707): Currently on runway 2 for 2 seconds, just left 3. ^M
+(TID 28708): Currently on runway 4 for 3 seconds, just left 6. ^M
+(TID 28707): Runway cleared! leaving 2^M
+(TID 28707): I'm a large plane waiting in terminal^M
+(TID 28685): Landing possible! I'm a small plane landing in runway order 32^M
+(TID 28685): Landing on runway 3 for 2 seconds. ^M
+(TID 28671): Done flying, I'm a small plane awaiting landing in runway order 35^M
+(TID 28700): Done flying, I'm a large plane awaiting to land in runway order 235^M
+(TID 28708): Taking off on runway 1 for 2 seconds, just left 4. ^M
+(TID 28685): Landing on runway 2 for 4 seconds, just left 3. ^M
+(TID 28679): Takeoff possible! I'm a small plane taking off in runway order 34^M
+(TID 28679): Currently on runway 3 for 3 seconds. ^M
+(TID 28676): Done flying, I'm a small plane awaiting landing in runway order 32^M
+(TID 28708): Takeoff! leaving 1^M
+(TID 28708): I'm a large plane currently flying for 23 seconds. ^M
+(TID 28679): Currently on runway 4 for 3 seconds, just left 3. ^M
+(TID 28671): Landing possible! I'm a small plane landing in runway order 35^M
+(TID 28671): Landing on runway 3 for 3 seconds. ^M
+(TID 28704): Done flying, I'm a large plane awaiting to land in runway order 641^M
+(TID 28685): Runway cleared! leaving 2^M
+(TID 28685): I'm a small plane waiting in terminal^M
+(TID 28669): Landing possible! I'm a small plane landing in runway order 21^M
+(TID 28669): Landing on runway 2 for 4 seconds. ^M
+(TID 28671): Landing on runway 5 for 4 seconds, just left 3. ^M
+(TID 28679): Takeoff! leaving 4^M
+(TID 28679): I'm a small plane currently flying for 24 seconds.^M
+(TID 28669): Landing on runway 1 for 4 seconds, just left 2. ^M
+(TID 28676): Landing possible! I'm a small plane landing in runway order 32^M
+(TID 28676): Landing on runway 3 for 3 seconds. ^M
+(TID 28671): Runway cleared! leaving 5^M
+(TID 28671): I'm a small plane waiting in terminal^M
+(TID 28676): Landing on runway 2 for 4 seconds, just left 3. ^M
+(TID 28669): Runway cleared! leaving 1^M
+(TID 28669): I'm a small plane waiting in terminal^M
+(TID 28704): Landing possible! I'm a small plane landing in runway order 641^M
+(TID 28704): Landing on runway 6 for 3 seconds. ^M
+(TID 28676): Runway cleared! leaving 2^M
+(TID 28676): I'm a small plane waiting in terminal^M
+(TID 28670): Landing possible! I'm a small plane landing in runway order 32^M
+(TID 28670): Landing on runway 3 for 3 seconds. ^M
+(TID 28704): Landing on runway 4 for 4 seconds, just left 6. ^M
+(TID 28670): Landing on runway 2 for 2 seconds, just left 3. ^M
+(TID 28704): Currently on runway 1 for 3 seconds, just left 4. ^M
+(TID 28670): Runway cleared! leaving 2^M
+(TID 28670): I'm a small plane waiting in terminal^M
+(TID 28700): Landing possible! I'm a small plane landing in runway order 235^M
+(TID 28700): Landing on runway 2 for 3 seconds. ^M
+(TID 28704): Runway cleared! leaving 1^M
+(TID 28704): I'm a large plane waiting in terminal^M
+(TID 28709): Takeoff possible! I'm a large plane taking off in runway order 641^M
+(TID 28709): Currently on runway 6 for 3 seconds. ^M
+(TID 28700): Landing on runway 3 for 3 seconds, just left 2. ^M
+(TID 28708): Done flying, I'm a large plane awaiting to land in runway order 641^M
+(TID 28709): Currently on runway 4 for 3 seconds, just left 6. ^M
+(TID 28700): Currently on runway 5 for 4 seconds, just left 3. ^M
+(TID 28686): Landing possible! I'm a small plane landing in runway order 23^M
+(TID 28686): Landing on runway 2 for 4 seconds. ^M
+(TID 28709): Taking off on runway 1 for 3 seconds, just left 4. ^M
+(TID 28679): Done flying, I'm a small plane awaiting landing in runway order 35^M
+(TID 28700): Runway cleared! leaving 5^M
+(TID 28700): I'm a large plane waiting in terminal^M
+(TID 28686): Landing on runway 3 for 3 seconds, just left 2. ^M
+(TID 28709): Takeoff! leaving 1^M
+(TID 28709): I'm a large plane currently flying for 10 seconds. ^M
+(TID 28702): Takeoff possible! I'm a large plane taking off in runway order 146^M
+(TID 28702): Currently on runway 1 for 3 seconds. ^M
+(TID 28686): Runway cleared! leaving 3^M
+(TID 28686): I'm a small plane waiting in terminal^M
+(TID 28705): Takeoff possible! I'm a large plane taking off in runway order 235^M
+(TID 28705): Currently on runway 2 for 3 seconds. ^M
+(TID 28702): Currently on runway 4 for 4 seconds, just left 1. ^M
+(TID 28705): Currently on runway 3 for 4 seconds, just left 2. ^M
+(TID 28702): Taking off on runway 6 for 2 seconds, just left 4. ^M
+(TID 28674): Takeoff possible! I'm a small plane taking off in runway order 41^M
+(TID 28674): Currently on runway 4 for 2 seconds. ^M
+(TID 28705): Taking off on runway 5 for 3 seconds, just left 3. ^M
+(TID 28702): Takeoff! leaving 6^M
+(TID 28702): I'm a large plane currently flying for 19 seconds. ^M
+(TID 28674): Currently on runway 1 for 2 seconds, just left 4. ^M
+(TID 28709): Done flying, I'm a large plane awaiting to land in runway order 532^M
+(TID 28674): Takeoff! leaving 1^M
+(TID 28674): I'm a small plane currently flying for 27 seconds.^M
+(TID 28711): Landing possible! I'm a small plane landing in runway order 641^M
+(TID 28711): Landing on runway 6 for 3 seconds. ^M
+(TID 28705): Takeoff! leaving 5^M
+(TID 28705): I'm a large plane currently flying for 22 seconds. ^M
+(TID 28709): Landing possible! I'm a small plane landing in runway order 532^M
+(TID 28709): Landing on runway 5 for 4 seconds. ^M
+(TID 28711): Landing on runway 4 for 2 seconds, just left 6. ^M
+(TID 28709): Landing on runway 3 for 4 seconds, just left 5. ^M
+(TID 28711): Currently on runway 1 for 3 seconds, just left 4. ^M
+(TID 28711): Runway cleared! leaving 1^M
+(TID 28711): I'm a large plane waiting in terminal^M
+(TID 28699): Landing possible! I'm a small plane landing in runway order 641^M
+(TID 28699): Landing on runway 6 for 3 seconds. ^M
+(TID 28709): Currently on runway 2 for 2 seconds, just left 3. ^M
+(TID 28679): Landing possible! I'm a small plane landing in runway order 35^M
+(TID 28679): Landing on runway 3 for 4 seconds. ^M
+(TID 28709): Runway cleared! leaving 2^M
+(TID 28709): I'm a large plane waiting in terminal^M
+(TID 28699): Landing on runway 4 for 2 seconds, just left 6. ^M
+(TID 28679): Landing on runway 5 for 3 seconds, just left 3. ^M
+(TID 28699): Currently on runway 1 for 3 seconds, just left 4. ^M
+(TID 28679): Runway cleared! leaving 5^M
+(TID 28679): I'm a small plane waiting in terminal^M
+(TID 28699): Runway cleared! leaving 1^M
+(TID 28699): I'm a large plane waiting in terminal^M
+(TID 28701): Landing possible! I'm a small plane landing in runway order 641^M
+(TID 28701): Landing on runway 6 for 4 seconds. ^M
+(TID 28702): Done flying, I'm a large plane awaiting to land in runway order 235^M
+(TID 28702): Landing possible! I'm a small plane landing in runway order 235^M
+(TID 28702): Landing on runway 2 for 4 seconds. ^M
+(TID 28701): Landing on runway 4 for 3 seconds, just left 6. ^M
+(TID 28702): Landing on runway 3 for 4 seconds, just left 2. ^M
+(TID 28705): Done flying, I'm a large plane awaiting to land in runway order 146^M
+(TID 28701): Currently on runway 1 for 3 seconds, just left 4. ^M
+(TID 28702): Currently on runway 5 for 4 seconds, just left 3. ^M
+(TID 28701): Runway cleared! leaving 1^M
+(TID 28701): I'm a large plane waiting in terminal^M
+(TID 28708): Landing possible! I'm a small plane landing in runway order 641^M
+(TID 28708): Landing on runway 6 for 2 seconds. ^M
+(TID 28674): Done flying, I'm a small plane awaiting landing in runway order 21^M
+(TID 28708): Landing on runway 4 for 4 seconds, just left 6. ^M
+(TID 28702): Runway cleared! leaving 5^M
+(TID 28702): I'm a large plane waiting in terminal^M
+(TID 28708): Currently on runway 1 for 2 seconds, just left 4. ^M
+(TID 28708): Runway cleared! leaving 1^M
+(TID 28708): I'm a large plane waiting in terminal^M
+(TID 28712): Takeoff possible! I'm a large plane taking off in runway order 146^M
+(TID 28712): Currently on runway 1 for 3 seconds. ^M
+(TID 28712): Currently on runway 4 for 3 seconds, just left 1. ^M
+(TID 28674): Landing possible! I'm a small plane landing in runway order 21^M
+(TID 28674): Landing on runway 2 for 2 seconds. ^M
+(TID 28674): Landing on runway 1 for 2 seconds, just left 2. ^M
+(TID 28712): Taking off on runway 6 for 4 seconds, just left 4. ^M
+(TID 28674): Runway cleared! leaving 1^M
+(TID 28674): I'm a small plane waiting in terminal^M
+(TID 28712): Takeoff! leaving 6^M
+(TID 28712): I'm a large plane currently flying for 29 seconds. ^M
+(TID 28705): Landing possible! I'm a small plane landing in runway order 146^M
+(TID 28705): Landing on runway 1 for 2 seconds. ^M
+(TID 28705): Landing on runway 4 for 2 seconds, just left 1. ^M
+(TID 28705): Currently on runway 6 for 3 seconds, just left 4. ^M
+(TID 28705): Runway cleared! leaving 6^M
+(TID 28705): I'm a large plane waiting in terminal^M
+(TID 28712): Done flying, I'm a large plane awaiting to land in runway order 235^M
+(TID 28712): Landing possible! I'm a small plane landing in runway order 235^M
+(TID 28712): Landing on runway 2 for 2 seconds. ^M
+(TID 28712): Landing on runway 3 for 4 seconds, just left 2. ^M
+(TID 28712): Currently on runway 5 for 2 seconds, just left 3. ^M
+(TID 28712): Runway cleared! leaving 5^M
+(TID 28712): I'm a large plane waiting in terminal^M
+All planes are done flying!^M
+^[[?2004h^[]0;owen@owen-VirtualBox: ~/Desktop/Project2^G^[[01;32mowen@owen-VirtualBox^[[00m:^[[01;34m~/Desktop/Project2^[[00m$ ^M^[[K^[]0;owen@owen-VirtualBox: ~/Desktop/Project2^G^[[01;32mowen@owen-VirtualBox^[[00m:^[[01;34m~/Desktop/Project2^[[00m$ exit^M
+^[[?2004l^Mexit^M
+
+Script done on 2022-09-16 17:45:23-04:00 [COMMAND_EXIT_CODE="0"]
